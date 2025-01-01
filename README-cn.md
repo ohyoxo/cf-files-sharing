@@ -1,6 +1,8 @@
 # CloudFlare 文件分享 
 [English](https://github.com/joyance-professional/cf-files-sharing/blob/main/README.md)｜[简体中文](https://github.com/joyance-professional/cf-files-sharing/blob/main/README-cn.md)
 
+[![Deploy](https://img.shields.io/badge/Deploy%20to-Cloudflare-orange)](https://deploy.workers.cloudflare.com/?url=https://github.com/joyance-professional/cf-files-sharing/)(先要手动创建 D1 数据库，创建 R2 存储桶,更新 wrangler.toml)
+
 一个运行在 Cloudflare Workers 上的简单文件分享工具，支持 R2 和 D1 双存储解决方案。
 
 ## 特性
